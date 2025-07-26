@@ -1,0 +1,46 @@
+STEP 2: Setup Git (Only Once)
+Open Git Bash (or terminal), and run:
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+------------------------------------------------------
+STEP 3: Create a Local Git Repository
+Let’s say you have a project folder (or make one):
+
+bash
+Copy
+Edit
+mkdir my-first-project
+cd my-first-project
+---------------------------------------------------
+Now turn it into a Git repository:
+
+bash
+Copy
+Edit
+git init
+---------------------------------------------------
+STEP 4: Create a File and Track Changes
+Let’s create a simple file:
+
+bash
+Copy
+Edit
+echo "Hello Git World" > hello.txt
+---------------------------------------------------
+Now check the status:
+git status
+---------------------------------------------------
+To track it:
+git add hello.txt
+---------------------------------------------------
+Then save it (commit the change):
+git commit -m "First commit: Added hello.txt"
+---------------------------------------------------
+@ How to Upload My Files To GitHub Account
+1.git init
+2.git add .
+3.git commit -m "Reduce Method"
+4.git remote add origin https://github.com/Cyber-Cp/javaScriptReduce.git
+5.git push -u origin master
+6.

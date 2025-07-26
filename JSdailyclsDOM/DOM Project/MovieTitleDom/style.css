@@ -1,0 +1,14 @@
+*{
+    margin: 100;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #ffd700;
+}
+div{
+display: grid;   
+grid-template-columns: 100px 100px 100px ; 
+gap: 200px;    
+}

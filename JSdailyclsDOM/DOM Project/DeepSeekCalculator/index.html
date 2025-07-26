@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+<div>
+  <input type="number" id="fvh" placeholder="Enter First Value">
+  <input type="number" id="svh" placeholder="Enter Second Value"> <!-- Fixed 'is' to 'id' -->
+  <button onclick="add()">Add</button>
+  <button onclick="sub()">Sub</button>
+  <button onclick="reset()">Reset</button>
+  <p id="para">0</p>
+</div>
+
+<script>
+  // Fixed spelling of 'document' and consistent variable naming
+  const fvj = document.getElementById('fvh');
+  const svj = document.getElementById('svh');
+  const paraj = document.getElementById('para');
+
+  function add() {
+    paraj.textContent = `The Sum Of Value is ${+fvj.value + +svj.value}`;
+  }
+
+  function sub() {
+    paraj.textContent = `The Difference is ${+fvj.value - +svj.value}`;
+  }
+
+  function reset() {
+    fvj.value = '';
+    svj.value = '';
+    paraj.textContent = '0';
+  }
+</script>
+</body>
+</html>
