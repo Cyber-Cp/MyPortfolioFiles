@@ -1,6 +1,6 @@
 //Colect the elements......
-const inputUrl=document.getElementById('url');
-const inputTitle=document.getElementById('title');
+const inputUrl=document.getElementById('url');//Dont take direct 
+const inputTitle=document.getElementById('title');//.vlues here 
 const inputButton=document.getElementById('btn');
 const inputResult=document.getElementById('result');
 
